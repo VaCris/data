@@ -1,10 +1,15 @@
 {
   "name": "json-server-datos",
   "version": "1.0.0",
+  "description": "API fake con JSON Server desplegada en Render",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
     "json-server": "^0.17.4"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
